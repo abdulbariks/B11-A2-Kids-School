@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  margin: 0px auto;
+}
+/* CSS color Variables */
+:root {
+  --yellow: rgb(254, 163, 1);
+  --blue-bolt: rgb(1, 172, 253);
+  --dark-turquoise: rgb(5, 212, 223);
+  --majorelle-blue: rgb(93, 88, 239);
+}
+
+/* common style start  */
+.display-flex {
+  display: flex;
+}
+/* common style end  */
+
+/* header style start  */
+/* nav-section  style start  */
+.nav-section {
+  width: 1160px;
+  margin: 40px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-log {
+  align-items: center;
+}
+.nav-title {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.list-items {
+  list-style: none;
+  gap: 32px;
+}
+.list-link {
+  text-decoration: none;
+}
+.home-style {
+  color: var(--yellow);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-style {
+  color: var(--blue-bolt);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+}
+.facilites-style {
+  color: var(--dark-turquoise);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+}
+.admisson-style {
+  color: var(--majorelle-blue);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact-btn {
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  width: 190px;
+  border: none;
+  padding: 15px;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-material-icons {
+  display: none;
+}
+.hr {
+  display: none;
+}
+/* nav-section  style end  */
+/* banner-section style start  */
+.banner-section {
+  width: 1160px;
+  margin: 40px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  width: 550px;
+  font-family: Quicksand;
+  font-size: 56px;
+  font-weight: 700;
+}
+.empowering {
+  color: rgb(254, 163, 1);
+}
+.students {
+  color: rgb(17, 17, 17);
+}
+.towards {
+  color: rgb(1, 172, 253);
+}
+.banner-description {
+  width: 550px;
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0px 30px 0px;
+}
+.banner-btn {
+  width: 200px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+}
+/* banner-section style end  */
+
+/* header style end  */
+
+/* media query start  */
+@media screen and (max-width: 576px) {
+  /* nav responsive  */
+  .nav-section {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-items,
+  .nav-title,
+  .contact-btn {
+    display: none;
+  }
+  .nav-log {
+    margin-left: 20px;
+  }
+  .btn-material-icons {
+    display: block;
+    margin-right: 20px;
+  }
+  .hr {
+    display: block;
+    background-color: var(--yellow);
+  }
+  /* banner responsive  */
+  .banner-section {
+    width: 100%;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .banner-img-hero {
+    width: 360vw;
+  }
+  .banner-title {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 30px;
+  }
+  .banner-description {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .banner-btn {
+    width: 200px;
+  }
+}
