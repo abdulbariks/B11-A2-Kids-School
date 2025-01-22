@@ -502,7 +502,6 @@ body {
   /* curriculum-section responsive  */
   .standard-curriculum-title {
     color: rgb(0, 0, 0);
-    font-family: Quicksand;
     font-size: 26px;
     font-weight: 700;
     padding: 20px;
@@ -516,19 +515,30 @@ body {
   }
   /* stories-section responsive  */
   .stories-content {
-    width: 100%;
+    max-width: 100%;
   }
   .stories-right-content {
     display: none;
   }
   .stories-left-content {
-    width: 100%;
+    width: 576px;
     display: grid;
     grid-template-columns: repeat(2, 1rf);
+    margin-left: 20px;
+    margin-right: 20px;
     gap: 5px;
   }
   .stories-left-content-cart {
-    max-width: 100%;
+    max-width: 260px;
+  }
+  .stories-left-content-img {
+    width: 100%;
+  }
+  .stories-left-content-description {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    overflow: hidden;
   }
   .stories-section-btn {
     width: 100%;
