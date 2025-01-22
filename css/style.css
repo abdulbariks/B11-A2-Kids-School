@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* google fonts  */
+.muicksand-fonts {
+  font-family: Quicksand;
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   width: 100%;
@@ -33,7 +40,6 @@ body {
 }
 .nav-title {
   color: rgb(17, 17, 17);
-  font-family: Quicksand;
   font-size: 32px;
   font-weight: 700;
   margin-left: 10px;
@@ -47,25 +53,21 @@ body {
 }
 .home-style {
   color: var(--yellow);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 700;
 }
 .about-style {
   color: var(--blue-bolt);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 500;
 }
 .facilites-style {
   color: var(--dark-turquoise);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 500;
 }
 .admisson-style {
   color: var(--majorelle-blue);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 500;
 }
@@ -76,9 +78,12 @@ body {
   width: 190px;
   border: none;
   padding: 15px;
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
+}
+.contact-btn:hover {
+  background: rgb(112, 82, 29);
 }
 .btn-material-icons {
   display: none;
@@ -96,7 +101,6 @@ body {
 }
 .banner-title {
   width: 550px;
-  font-family: Quicksand;
   font-size: 56px;
   font-weight: 700;
 }
@@ -112,7 +116,6 @@ body {
 .banner-description {
   width: 550px;
   color: rgb(17, 17, 17);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 400;
   margin: 30px 0px 30px 0px;
@@ -122,10 +125,13 @@ body {
   border-radius: 12px;
   background: rgb(17, 17, 17);
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 700;
   padding: 15px;
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background: rgb(70, 54, 54);
 }
 /* banner-section style end  */
 
@@ -138,7 +144,6 @@ body {
 }
 .standard-curriculum-title {
   color: rgb(0, 0, 0);
-  font-family: Quicksand;
   font-size: 46px;
   font-weight: 700;
   text-align: center;
@@ -204,7 +209,6 @@ body {
 }
 .curriculum-cat-title {
   color: rgb(32, 32, 32);
-  font-family: Quicksand;
   font-size: 24.52px;
   font-weight: 700;
   padding: 20px;
@@ -217,7 +221,6 @@ body {
   padding-bottom: 20px;
 }
 .curriculum-cart-btn {
-  font-family: Quicksand;
   font-size: 15.09px;
   font-weight: 700;
   border: none;
@@ -275,7 +278,6 @@ body {
   margin: 60px auto;
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: Quicksand;
   font-size: 46px;
   font-weight: 700;
 }
@@ -311,7 +313,6 @@ body {
 .stories-right-content-title {
   width: 400px;
   color: rgb(0, 0, 0);
-  font-family: Quicksand;
   font-size: 24px;
   font-weight: 700;
   margin: 30px 0px 10px 40px;
@@ -362,7 +363,6 @@ body {
 .stories-left-content-description {
   width: 180px;
   color: rgb(0, 0, 0);
-  font-family: Quicksand;
   font-size: 15.34px;
   font-weight: 700;
   margin: 0px 0px 30px 30px;
@@ -376,34 +376,34 @@ body {
   border-radius: 12px;
   background: rgb(17, 17, 17);
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 700;
   padding: 15px;
+  cursor: pointer;
+}
+.stories-section-btn:hover {
+  background: rgb(95, 89, 89);
 }
 /* stories-section style end  */
 /* main-section style end  */
 /* footer-secttion style start  */
 .footer-secttion {
   background: rgb(1, 172, 253);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .footer-content {
   width: 1070px;
-  margin: 60px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
+  padding: 60px 0px;
 }
-
 .footer-left-logo-img {
   width: 80px;
   height: 80px;
+  background: rgb(180, 173, 171);
 }
 .footer-left-title {
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 2.1rem;
   font-weight: 700;
   margin-left: 5px;
@@ -418,14 +418,12 @@ body {
 }
 .footer-center-title {
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .footer-center-item {
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 20px;
   font-weight: 500;
   margin: 10px;
@@ -436,7 +434,6 @@ body {
 }
 .footer-right-title {
   color: rgb(255, 255, 255);
-  font-family: Quicksand;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -452,6 +449,8 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
+    padding-top: 20px;
   }
   .list-items,
   .nav-title,
@@ -515,7 +514,6 @@ body {
   /* stories-section responsive  */
   .stories-content {
     width: 100%;
-    margin: 0px auto;
   }
   .stories-right-content {
     display: none;
@@ -523,19 +521,30 @@ body {
   .stories-left-content {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1rf);
+    gap: 5px;
+  }
+  .stories-left-content-cart {
+    max-width: 100%;
+  }
+  .stories-section-btn {
+    width: 100%;
   }
   /* footer section responsive  */
   .footer-content {
     width: 100%;
-    margin: 60px 20px;
     display: flex;
     flex-direction: column;
+    padding: 30px;
   }
   .footer-center {
     margin-top: 20px;
   }
   .footer-right {
     margin-top: 20px;
+  }
+
+  .footer-left-description {
+    width: 100%;
   }
 }
