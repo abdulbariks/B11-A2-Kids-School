@@ -140,6 +140,7 @@ body {
 /* main-section style start  */
 /* curriculum-section style start  */
 .curriculum-section {
+  width: 100%;
   background-image: url("../assets/bg.png");
 }
 .standard-curriculum-title {
@@ -271,6 +272,7 @@ body {
 /* curriculum-section style end  */
 /* stories-section style start  */
 .stories-section {
+  width: 100%;
   background: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
@@ -388,6 +390,7 @@ body {
 /* main-section style end  */
 /* footer-secttion style start  */
 .footer-secttion {
+  width: 100%;
   background: rgb(1, 172, 253);
 }
 .footer-content {
